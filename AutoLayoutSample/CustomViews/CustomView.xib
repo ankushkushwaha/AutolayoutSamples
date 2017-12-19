@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CustomView" customModule="Label" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="iN0-l3-epB" id="Aos-EA-Hoj"/>
+                <outlet property="label1" destination="e9p-Gr-DC9" id="hn1-J5-b99"/>
+                <outlet property="label2" destination="xp1-Va-UWk" id="cwe-ak-H3R"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="241" height="95"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label2" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xp1-Va-UWk">
+                    <rect key="frame" x="10" y="62" width="221" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label1" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e9p-Gr-DC9">
+                    <rect key="frame" x="16" y="13" width="215" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.35210814923812794" green="1" blue="0.32131728580492014" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="xp1-Va-UWk" secondAttribute="trailing" constant="10" id="70z-AV-cJD"/>
+                <constraint firstItem="e9p-Gr-DC9" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="13" id="DrV-Dc-hvV"/>
+                <constraint firstItem="xp1-Va-UWk" firstAttribute="top" secondItem="e9p-Gr-DC9" secondAttribute="bottom" constant="28" id="hhm-OZ-DAq"/>
+                <constraint firstAttribute="trailing" secondItem="e9p-Gr-DC9" secondAttribute="trailing" constant="10" id="tvu-Uz-ycH"/>
+                <constraint firstItem="xp1-Va-UWk" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="vRg-6M-VPH"/>
+                <constraint firstItem="e9p-Gr-DC9" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="w8f-BP-5Yv"/>
+                <constraint firstAttribute="bottom" secondItem="xp1-Va-UWk" secondAttribute="bottom" constant="12" id="wQ0-LO-XKR"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="YqF-Xu-zvd"/>
+            <point key="canvasLocation" x="-31" y="-199"/>
+        </view>
+    </objects>
+</document>
